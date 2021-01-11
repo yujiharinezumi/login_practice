@@ -11,9 +11,9 @@ if($result){
 
 $err = $_SESSION;
 
-//セッションを削除する
-$_SESSION = array();
-session_destroy();
+// //セッションを削除する
+// $_SESSION = array();
+// session_destroy();
 
 ?>
 
